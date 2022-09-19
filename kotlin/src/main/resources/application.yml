@@ -1,0 +1,12 @@
+micronaut:
+  application:
+    name: my-app
+netty:
+  default:
+    allocator:
+      max-order: 3
+hello:
+  controller:
+    path: /
+  value: "${HELLO}"
+HELLO: "We can read the application.yml :)"

@@ -1,0 +1,4 @@
+#!/bin/bash
+
+VAULT_TOKEN=${VAULT_TOKEN:-none} MICRONAUT_ENVIRONMENTS=${MICRONAUT_ENVIRONMENTS:-dev} ./mvnw -e mn:run
+

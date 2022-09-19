@@ -1,0 +1,14 @@
+micronaut:
+  application:
+    name: my-app
+  config-client:
+    enabled: true
+
+vault:
+  client:
+    config:
+      enabled: true
+    kv-version: V2
+    secret-engine-name: secret
+    uri: ${VAULT_ADDR:`http://127.0.0.1:8200`}
+    token: ${VAULT_TOKEN:`please-set-this-var`}

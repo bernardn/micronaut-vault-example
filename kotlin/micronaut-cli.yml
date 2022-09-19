@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: example.micronaut
+testFramework: junit
+sourceLanguage: kotlin
+buildTool: maven
+features: [annotation-api, app-name, graalvm, http-client, jackson-databind, junit, kotlin-application, logback, maven, netty-server, readme, shade, spring-boot-kotlin, yaml]
